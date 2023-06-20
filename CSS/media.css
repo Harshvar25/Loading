@@ -32,6 +32,9 @@
         margin-bottom: 30px;
     }
 
+    .section-two-btn{
+        overflow-x: scroll;
+    }
     .btn-forALL {
         width: auto;
         height: auto;
@@ -86,7 +89,9 @@
         margin: 0;
         margin-bottom: 30px;
     }
-
+    .section-two-btn{
+        overflow-x: scroll;
+    }
     .btn-forALL {
         width: auto;
         height: auto;
@@ -141,7 +146,9 @@
         margin: 0;
         margin-bottom: 30px;
     }
-
+    .section-two-btn{
+        overflow-x: scroll;
+    }
     .btn-forALL {
         width: auto;
         height: auto;
@@ -197,7 +204,9 @@
         margin: 0;
         margin-bottom: 30px;
     }
-
+    .section-two-btn{
+        overflow-x: scroll;
+    }
     .btn-forALL {
         width: auto;
         height: auto;
@@ -252,7 +261,9 @@
         margin: 0;
         margin-bottom: 30px;
     }
-
+    .section-two-btn{
+        overflow-x: scroll;
+    }
     .btn-forALL {
         width: auto;
         height: auto;
@@ -307,7 +318,9 @@
         margin: 0;
         margin-bottom: 30px;
     }
-
+    .section-two-btn{
+        overflow-x: scroll;
+    }
     .btn-forALL {
         width: auto;
         height: auto;
@@ -362,7 +375,9 @@
         margin: 0;
         margin-bottom: 30px;
     }
-
+    .section-two-btn{
+        overflow-x: scroll;
+    }
     .btn-forALL {
         width: auto;
         height: auto;
@@ -381,5 +396,12 @@
     .cards {
         width: auto;
         margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 600px) {
+    .btn-forALL,
+    .btn {
+        min-width: 100px;
     }
 }
