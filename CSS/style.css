@@ -78,7 +78,7 @@ body {
     gap: 24px;
     margin-left: 40px;
     margin-top: 40px;
-    overflow-x: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
 

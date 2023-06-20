@@ -1,3 +1,7 @@
+var tab01 = ["leftSide-Active.png","leftSide-notActive.png"]
+var tab02 = ["rightSide-Active.png","rightSide-notActive.png"]
+
+
 function openNav() {
   document.getElementById("mySidenav").style.width = "70%";
   document.getElementById("myImg").src = "./images/Active.png";
@@ -19,5 +23,20 @@ function myFunction() {
   } else {
     dots.style.display = "none";
     moreText.style.display = "inline";
+  }
+}
+
+function buttonClicked(buttonId) {
+  var buttons = document.getElementsByClassName('icon');
+  var images = document.querySelectorAll('.icon img');
+
+  for (var i = 0; i < buttons.length; i++) {
+    if (buttons[i].id === buttonId) {
+      buttons[i].classList.add('active');
+      images[i].src = images[i].src.replace('-notActive', '-Active');
+    } else {
+      buttons[i].classList.remove('active');
+      images[i].src = images[i].src.replace('-Active', '-notActive');
+    }
   }
 }
