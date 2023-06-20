@@ -35,7 +35,7 @@
     .section-two-btn{
         overflow-x: scroll;
     }
-    .btn-forALL {
+    .all-btn {
         width: auto;
         height: auto;
         padding: 1rem;
@@ -92,7 +92,7 @@
     .section-two-btn{
         overflow-x: scroll;
     }
-    .btn-forALL {
+    .all-btn {
         width: auto;
         height: auto;
         padding: 1rem;
@@ -113,62 +113,7 @@
     }
 }
 
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px) and (orientation: landscape) {
-    .width-100 {
-        width: 1auto;
-    }
 
-    .company-name {
-        font-size: 5vw;
-    }
-
-    .second-container h1 {
-        font-size: 5vw;
-    }
-
-    .input-container {
-        margin-bottom: 30px;
-    }
-
-    .searchBar {
-        width: auto;
-        margin: 0;
-    }
-
-    .input-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        padding: 0;
-        margin: 0;
-        margin-bottom: 30px;
-    }
-    .section-two-btn{
-        overflow-x: scroll;
-    }
-    .btn-forALL {
-        width: auto;
-        height: auto;
-        padding: 1rem;
-    }
-    .btn {
-        width: auto;
-        height: auto;
-        padding: 1rem;
-    }
-
-    .flex {
-        flex-direction: column;
-    }
-
-    .cards {
-        width: auto;
-        margin-bottom: 10%;
-    }
-}
 
 /* For Mobile Phones Portrait or Landscape View */
 @media screen and (max-device-width: 640px) {
@@ -207,7 +152,7 @@
     .section-two-btn{
         overflow-x: scroll;
     }
-    .btn-forALL {
+    .all-btn {
         width: auto;
         height: auto;
         padding: 1rem;
@@ -226,181 +171,7 @@
         width: auto;
         margin-bottom: 10%;
     }
-}
-
-/* For iPhone 4 Portrait or Landscape View */
-@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-    .width-100 {
-        width: 1auto;
-    }
-
-    .company-name {
-        font-size: 5vw;
-    }
-
-    .second-container h1 {
-        font-size: 5vw;
-    }
-
-    .input-container {
-        margin-bottom: 30px;
-    }
-
-    .searchBar {
-        width: auto;
-        margin: 0;
-    }
-
-    .input-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        padding: 0;
-        margin: 0;
-        margin-bottom: 30px;
-    }
-    .section-two-btn{
-        overflow-x: scroll;
-    }
-    .btn-forALL {
-        width: auto;
-        height: auto;
-        padding: 1rem;
-    }
-    .btn {
-        width: auto;
-        height: auto;
-        padding: 1rem;
-    }
-
-    .flex {
-        flex-direction: column;
-    }
-
-    .cards {
-        width: auto;
-        margin-bottom: 10%;
-    }
-}
-
-/* For iPhone 5 Portrait or Landscape View */
-@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-    .width-100 {
-        width: 1auto;
-    }
-
-    .company-name {
-        font-size: 5vw;
-    }
-
-    .second-container h1 {
-        font-size: 5vw;
-    }
-
-    .input-container {
-        margin-bottom: 30px;
-    }
-
-    .searchBar {
-        width: auto;
-        margin: 0;
-    }
-
-    .input-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        padding: 0;
-        margin: 0;
-        margin-bottom: 30px;
-    }
-    .section-two-btn{
-        overflow-x: scroll;
-    }
-    .btn-forALL {
-        width: auto;
-        height: auto;
-        padding: 1rem;
-    }
-    .btn {
-        width: auto;
-        height: auto;
-        padding: 1rem;
-    }
-
-    .flex {
-        flex-direction: column;
-    }
-
-    .cards {
-        width: auto;
-        margin-bottom: 10%;
-    }
-}
-
-/* For iPhone 6 and 6 plus Portrait or Landscape View */
-@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
-    .width-100 {
-        width: 1auto;
-    }
-
-    .company-name {
-        font-size: 5vw;
-    }
-
-    .second-container h1 {
-        font-size: 5vw;
-    }
-
-    .input-container {
-        margin-bottom: 30px;
-    }
-
-    .searchBar {
-        width: auto;
-        margin: 0;
-    }
-
-    .input-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        padding: 0;
-        margin: 0;
-        margin-bottom: 30px;
-    }
-    .section-two-btn{
-        overflow-x: scroll;
-    }
-    .btn-forALL {
-        width: auto;
-        height: auto;
-        padding: 1rem;
-    }
-    .btn {
-        width: auto;
-        height: auto;
-        padding: 1rem;
-    }
-
-    .flex {
-        flex-direction: column;
-    }
-
-    .cards {
-        width: auto;
-        margin-bottom: 10%;
-    }
-}
-
-@media (max-width: 600px) {
-    .btn-forALL,
+    .all.btn,
     .btn {
         min-width: 100px;
     }

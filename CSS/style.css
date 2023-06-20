@@ -103,6 +103,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 3rem 0;
+    
 }
 
 .card-btn {
@@ -116,6 +117,7 @@ body {
     width: 325px;
     height: auto;
     border-radius: 15px;
+    text-align: left;
 }
 
 .cards-content {
@@ -135,6 +137,7 @@ body {
     letter-spacing: 8px;
     text-align: left;
     color: #ffbb29;
+    margin-bottom: 15px;
 }
 
 .flex h4 {
@@ -144,6 +147,7 @@ body {
     line-height: 29px;
     font-family: 'Poppins', sans-serif;
     color: white;
+    margin-bottom: 15px;
 }
 
 .flex p {
@@ -153,6 +157,7 @@ body {
     line-height: 22px;
     font-family: 'Poppins', sans-serif;
     color: #757B8C;
+    margin-bottom: 15px;
 }
 
 .readMore-btn {
