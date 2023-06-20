@@ -96,7 +96,6 @@ body {
 .scrollable-container {
     display: flex;
     gap: 24px;
-    padding: 0 40px;
     flex-wrap: nowrap;
 }
 
