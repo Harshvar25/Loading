@@ -40,3 +40,17 @@ function buttonClicked(buttonId) {
     }
   }
 }
+
+document.addEventListener('click', function(event) {
+  for (var j = 0; j < buttons.length; j++) {
+    buttons[j].classList.remove('active');
+    images[j].src = images[j].src.replace('-Active', '-notActive');
+  }
+});
+
+document.addEventListener('touchstart', function(event) {
+  for (var j = 0; j < buttons.length; j++) {
+    buttons[j].classList.remove('active');
+    images[j].src = images[j].src.replace('-active', '-notActive');
+  }
+});
