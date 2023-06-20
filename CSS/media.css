@@ -132,7 +132,8 @@
 
     .cards {
         width: auto;
-        margin-bottom: 10%;
+        margin: 5vw;
+        /* margin-bottom: 10%; */
     }
 
 }
