@@ -55,8 +55,9 @@ body {
 #second-container-btn {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     gap: 16px;
-    margin-right: 40px;
+    
 }
 
 #second-container-btn button {

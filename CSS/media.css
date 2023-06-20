@@ -18,6 +18,7 @@
 
     .searchBar {
         width: auto;
+        margin: 0;
     }
 
     .input-container {
@@ -32,6 +33,11 @@
     }
 
     .btn-forALL {
+        width: auto;
+        height: auto;
+        padding: 1rem;
+    }
+    .btn {
         width: auto;
         height: auto;
         padding: 1rem;
@@ -67,6 +73,7 @@
 
     .searchBar {
         width: auto;
+        margin: 0;
     }
 
     .input-container {
@@ -81,6 +88,11 @@
     }
 
     .btn-forALL {
+        width: auto;
+        height: auto;
+        padding: 1rem;
+    }
+    .btn {
         width: auto;
         height: auto;
         padding: 1rem;
@@ -116,6 +128,7 @@
 
     .searchBar {
         width: auto;
+        margin: 0;
     }
 
     .input-container {
@@ -130,6 +143,11 @@
     }
 
     .btn-forALL {
+        width: auto;
+        height: auto;
+        padding: 1rem;
+    }
+    .btn {
         width: auto;
         height: auto;
         padding: 1rem;
@@ -166,6 +184,7 @@
 
     .searchBar {
         width: auto;
+        margin: 0;
     }
 
     .input-container {
@@ -180,6 +199,11 @@
     }
 
     .btn-forALL {
+        width: auto;
+        height: auto;
+        padding: 1rem;
+    }
+    .btn {
         width: auto;
         height: auto;
         padding: 1rem;
@@ -215,6 +239,7 @@
 
     .searchBar {
         width: auto;
+        margin: 0;
     }
 
     .input-container {
@@ -229,6 +254,11 @@
     }
 
     .btn-forALL {
+        width: auto;
+        height: auto;
+        padding: 1rem;
+    }
+    .btn {
         width: auto;
         height: auto;
         padding: 1rem;
@@ -264,6 +294,7 @@
 
     .searchBar {
         width: auto;
+        margin: 0;
     }
 
     .input-container {
@@ -278,6 +309,11 @@
     }
 
     .btn-forALL {
+        width: auto;
+        height: auto;
+        padding: 1rem;
+    }
+    .btn {
         width: auto;
         height: auto;
         padding: 1rem;
@@ -313,6 +349,7 @@
 
     .searchBar {
         width: auto;
+        margin: 0;
     }
 
     .input-container {
@@ -327,6 +364,11 @@
     }
 
     .btn-forALL {
+        width: auto;
+        height: auto;
+        padding: 1rem;
+    }
+    .btn {
         width: auto;
         height: auto;
         padding: 1rem;
