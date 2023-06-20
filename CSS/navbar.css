@@ -15,12 +15,14 @@ nav{
 #nav-left {
     display: flex;
     gap: 40px;
+    justify-content: space-around;
     align-items: center;
 }
 
 .company-name {
     font-family: clashdisplay;
     font-size: 30px;
+    margin-left: 2rem;
     color: #ffbb29;
 }
 

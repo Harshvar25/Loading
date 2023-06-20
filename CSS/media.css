@@ -32,14 +32,16 @@
         margin-bottom: 30px;
     }
 
-    .section-two-btn{
+    .section-two-btn {
         overflow-x: scroll;
     }
+
     .all-btn {
         width: auto;
         height: auto;
         padding: 1rem;
     }
+
     .btn {
         width: auto;
         height: auto;
@@ -71,15 +73,6 @@
     }
 
     .input-container {
-        margin-bottom: 30px;
-    }
-
-    .searchBar {
-        width: auto;
-        margin: 0;
-    }
-
-    .input-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -89,14 +82,26 @@
         margin: 0;
         margin-bottom: 30px;
     }
-    .section-two-btn{
+
+    .searchBar {
+        width: auto;
+        margin: 0;
+    }
+
+    #second-container-btn {
+        margin: 0;
+    }
+
+    .section-two-btn {
         overflow-x: scroll;
     }
+
     .all-btn {
         width: auto;
         height: auto;
         padding: 1rem;
     }
+
     .btn {
         width: auto;
         height: auto;
@@ -111,66 +116,7 @@
         width: auto;
         margin-bottom: 10%;
     }
-}
 
-
-
-/* For Mobile Phones Portrait or Landscape View */
-@media screen and (max-device-width: 640px) {
-
-    .width-100 {
-        width: 1auto;
-    }
-
-    .company-name {
-        font-size: 5vw;
-    }
-
-    .second-container h1 {
-        font-size: 5vw;
-    }
-
-    .input-container {
-        margin-bottom: 30px;
-    }
-
-    .searchBar {
-        width: auto;
-        margin: 0;
-    }
-
-    .input-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        padding: 0;
-        margin: 0;
-        margin-bottom: 30px;
-    }
-    .section-two-btn{
-        overflow-x: scroll;
-    }
-    .all-btn {
-        width: auto;
-        height: auto;
-        padding: 1rem;
-    }
-    .btn {
-        width: auto;
-        height: auto;
-        padding: 1rem;
-    }
-
-    .flex {
-        flex-direction: column;
-    }
-
-    .cards {
-        width: auto;
-        margin-bottom: 10%;
-    }
     .all.btn,
     .btn {
         min-width: 100px;
