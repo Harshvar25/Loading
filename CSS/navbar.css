@@ -79,6 +79,10 @@ nav{
 #mySidenav-icon{
     display: none;
 }
+#mySidenav-icon img{
+    height: 4vw;
+    width: 4vw;
+}
 .sidenav {
   height: 100%;
   width: 0;

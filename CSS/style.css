@@ -165,7 +165,7 @@ body {
     color: #757B8C;
     margin-bottom: 1.0416vw;
 }
-
+#more {display: none;}
 .readMore-btn {
     border: none;
     cursor: pointer;
