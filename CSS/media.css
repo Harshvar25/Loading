@@ -64,16 +64,37 @@
         width: 1auto;
     }
 
-    .company-name {
-        font-size: 5vw;
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
     }
 
-    #nav-right{
+    .company-name {
+        font-size: 3vw;
+        margin-left: 30%;
+    }
+
+    #mySidenav-icon {
+        display: inline-block;
+        margin-right: 5%;
+    }
+    
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .visible {
         display: none;
     }
+
     .second-container h1 {
-        font-size: 5vw;
+        font-size: 4vw;
     }
+
 
     .input-container {
         display: flex;
