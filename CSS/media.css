@@ -68,6 +68,9 @@
         font-size: 5vw;
     }
 
+    #nav-right{
+        display: none;
+    }
     .second-container h1 {
         font-size: 5vw;
     }
