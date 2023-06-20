@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.width-100 {
+    width: auto;
+}
+.left-float {
+    float: left;
+}
+
+.right-float {
+    float: right;
+}
+.bg-color-darkblue {
+    background-color: #1D1F25;
+}
