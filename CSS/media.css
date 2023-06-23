@@ -240,7 +240,31 @@
     .cards {
         width: auto;
         margin: 5vw;
-        /* margin-bottom: 10%; */
+        }
+    .flex h5 {
+        font-size: 3.5vw;
+        font-weight: 400;
+        line-height: 1.4583vw;
+        margin-bottom: 3.5vw;
+    }
+    
+    .flex h4 {
+        font-weight: 400;
+        font-size: 3vw;
+        line-height: 2.0138vw;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        margin-bottom: 1.0416vw;
+    }
+    
+    .flex p {
+        height: auto;
+        font-weight: 500;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        font-family: 'Poppins', sans-serif;
+        color: #757B8C;
+        margin-bottom: 1.0416vw;
     }
 
 }

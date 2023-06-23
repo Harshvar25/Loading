@@ -1,5 +1,5 @@
-var tab01 = ["leftSide-Active.png","leftSide-notActive.png"]
-var tab02 = ["rightSide-Active.png","rightSide-notActive.png"]
+var tab01 = ["leftSide-Active.png", "leftSide-notActive.png"]
+var tab02 = ["rightSide-Active.png", "rightSide-notActive.png"]
 
 
 function openNav() {
@@ -41,16 +41,61 @@ function buttonClicked(buttonId) {
   }
 }
 
-document.addEventListener('click', function(event) {
-  for (var j = 0; j < buttons.length; j++) {
-    buttons[j].classList.remove('active');
-    images[j].src = images[j].src.replace('-Active', '-notActive');
-  }
-});
+// document.addEventListener('DOMContentLoaded', function () {
+//   var buttons = document.getElementsByClassName('icon');
+//   var images = document.querySelectorAll('.icon img');
 
-document.addEventListener('touchstart', function(event) {
-  for (var j = 0; j < buttons.length; j++) {
-    buttons[j].classList.remove('active');
-    images[j].src = images[j].src.replace('-active', '-notActive');
-  }
-});
+//   for (var i = 0; i < buttons.length; i++) {
+//     buttons[i].addEventListener('click', function (event) {
+//       var clickedButton = event.currentTarget;
+
+//       for (var j = 0; j < buttons.length; j++) {
+//         if (buttons[j] === clickedButton) {
+//           buttons[j].classList.add('active');
+//           images[j].src = images[j].src.replace('-notActive', '-Active');
+//         } else {
+//           buttons[j].classList.remove('active');
+//           images[j].src = images[j].src.replace('-Active', '-notActive');
+//         }
+//       }
+//     });
+//   }
+
+//   document.addEventListener('click', function (event) {
+//     for (var j = 0; j < buttons.length; j++) {
+//       buttons[j].classList.remove('active');
+//       images[j].src = images[j].src.replace('-Active', '-notActive');
+//     }
+//   });
+// });
+// document.addEventListener('DOMContentLoaded', function () {
+//   var buttons = document.getElementsByClassName('icon');
+//   var images = document.querySelectorAll('.icon img');
+
+//   for (var i = 0; i < buttons.length; i++) {
+//     buttons[i].addEventListener('touchstart', function (event) {
+//       var touchedButton = event.currentTarget;
+
+//       for (var j = 0; j < buttons.length; j++) {
+//         if (buttons[j] === touchedButton) {
+//           buttons[j].classList.add('active');
+//           images[j].src = images[j].src.replace('-notActive', '-Active');
+//         } else {
+//           buttons[j].classList.remove('active');
+//           images[j].src = images[j].src.replace('-Active', '-notActive');
+//         }
+//       }
+//     });
+//   }
+
+//   document.addEventListener('touchstart', function (event) {
+//     for (var j = 0; j < buttons.length; j++) {
+//       buttons[j].classList.remove('active');
+//       images[j].src = images[j].src.replace('-Active', '-notActive');
+//     }
+//   });
+// });
+
+function newPage(){
+  window.location.href="./newHTML.html" ;
+}
