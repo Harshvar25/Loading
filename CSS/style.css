@@ -3,12 +3,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-#ronitPic {
-    height: 50px;
-    width: 50px;
-    margin: 0;
-    padding: 0;
-}
 
 .top-container {
     display: flex;
@@ -29,7 +23,7 @@ body {
 .second-container h1 {
     color: white;
     margin: 40px;
-    font-size: 40px;
+    font-size: 2.633vw;
 }
 
 .input-container {

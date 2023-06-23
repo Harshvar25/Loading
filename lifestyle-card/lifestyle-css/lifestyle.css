@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #141518;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1f25;
+}
+
+/* ..............................NAVBAR............................. */
+
+.secondContainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.heading {
+    letter-spacing: 2.5vw;
+    font-size: 2.633vw;
+    margin: 2.7vw;
+    width: auto ;
+    color: rgb(255, 255, 255);
+}
+
+.content-text {
+    color: aliceblue;
+    font-size: 100%;
+    font-weight: 100;
+    width: 50%;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+
+.searchBar {
+    background: #282C38;
+    color: #757B8C;
+    border: none;
+    width: 20vw;
+    height: 4vh;
+    margin: 4vw;
+    padding: 12px;
+    padding-left: 45px;
+    border-radius: 6px;
+}
