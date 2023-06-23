@@ -39,5 +39,5 @@ function buttonClicked(buttonId) {
 }
 
 function newPage(){
-  window.location.href="./lifestyle-card/index.html" ;
+  window.location.href="lifestyle-card/index.html" ;
 }
