@@ -64,6 +64,10 @@ body {
     background-color: inherit;
     margin: 0;
     padding: 0;
+    transition: transform 0.2s ease-in-out;
+}
+#second-container-btn button:hover{
+    transform: scale(1.12);
 }
 
 .section-two-btn {
@@ -118,6 +122,11 @@ body {
     height: auto;
     border-radius: 15px;
     text-align: left;
+    transition: transform 0.2s ease-in-out;
+}
+.cards:hover{
+    transform: scale(1.0416);
+
 }
 
 .cards-content {

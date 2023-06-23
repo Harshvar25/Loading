@@ -35,10 +35,14 @@ nav {
     color: grey;
     font-family: 'Poppins', sans-serif;
     margin-right: 30px;
+    padding: 1vw;
+    /* box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out; */
 }
 
 .nav-left-a a:hover {
-    color: darkgrey;
+    color: gold;
+    /* box-shadow: 0 2px 1px gold; */
 }
 
 .nav-right {
